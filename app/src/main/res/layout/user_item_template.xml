@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/githubBlackLight"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp">
+
+    <TextView
+        android:id="@+id/user_item_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textColor="@color/githubGreen"
+        android:layout_margin="8dp"
+        android:textAlignment="viewStart"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/user_item_reposCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PUBLIC REPOSITORIES: 1"
+        android:textColor="@color/githubGray"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:textAlignment="viewEnd"
+        android:layout_below="@id/user_item_username"
+        android:textSize="12sp"/>
+
+</RelativeLayout>
